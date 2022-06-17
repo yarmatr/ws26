@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "name": "test another DL experiment",
+    "description": "",
+    "asset_type": "experiment",
+    "origin_country": "us",
+    "asset_category": "USER",
+    "created_at": "2022-06-17T22:41:48Z",
+    "created": 1655505708417,
+    "asset_id": "experiment.testanotherDLexperiment",
+    "asset_attributes": [
+      "experiment"
+    ]
+  },
+  "entity": {
+    "experiment": {
+      "status": "completed",
+      "configuration": {},
+      "wml": {
+        "service_instance_id": "99999999-9999-9999-9999-999999999999",
+        "plan_version": 2
+      },
+      "experiment_guid": "wml_experiment.testanotherDLexperiment"
+    }
+  },
+  "attachments": [
+    {
+      "asset_type": "experiment",
+      "name": "referenced",
+      "description": "referenced attachment for experiment asset experiment.testanotherDLexperiment",
+      "object_key": "experiment/experiment.testanotherDLexperiment/attachments/referenced_experiment.testanotherDLexperiment",
+      "object_key_is_read_only": true,
+      "created_at": "2022-06-17T22:41:49Z",
+      "id": "aa00be1c-e8b6-4f53-a507-b393e2381e5d",
+      "is_managed": false,
+      "is_referenced": true,
+      "is_remote": false
+    }
+  ]
+}
