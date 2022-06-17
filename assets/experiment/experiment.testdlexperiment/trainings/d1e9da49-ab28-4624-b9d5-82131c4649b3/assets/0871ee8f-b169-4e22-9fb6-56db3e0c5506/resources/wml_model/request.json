@@ -1,0 +1,40 @@
+{
+  "model_definition": {
+    "id": "wml_model_definition.testtensorflow"
+  },
+  "name": "model_admin-8046151370111695-256195675",
+  "content_location": {
+    "connection": {
+
+    },
+    "contents": [{
+      "content_format": "native",
+      "file_name": "admin-8046151370111695-256195675.zip",
+      "location": "/projects/5fc23db6-b83f-42d1-a484-671370cb7bdf/assets/experiment/experiment.testdlexperiment/trainings/d1e9da49-ab28-4624-b9d5-82131c4649b3/assets/0871ee8f-b169-4e22-9fb6-56db3e0c5506/resources/wml_model/admin-8046151370111695-256195675.zip"
+    }],
+    "location": {
+      "path": "/projects/5fc23db6-b83f-42d1-a484-671370cb7bdf/assets/experiment/experiment.testdlexperiment/trainings",
+      "model": "/projects/5fc23db6-b83f-42d1-a484-671370cb7bdf/assets/experiment/experiment.testdlexperiment/trainings/0871ee8f-b169-4e22-9fb6-56db3e0c5506/data/model",
+      "notebooks_path": "/projects/5fc23db6-b83f-42d1-a484-671370cb7bdf/assets/experiment/experiment.testdlexperiment/trainings/d1e9da49-ab28-4624-b9d5-82131c4649b3/notebooks",
+      "training": "/projects/5fc23db6-b83f-42d1-a484-671370cb7bdf/assets/experiment/experiment.testdlexperiment/trainings/d1e9da49-ab28-4624-b9d5-82131c4649b3/0871ee8f-b169-4e22-9fb6-56db3e0c5506",
+      "training_status": "/projects/5fc23db6-b83f-42d1-a484-671370cb7bdf/assets/experiment/experiment.testdlexperiment/trainings/d1e9da49-ab28-4624-b9d5-82131c4649b3/0871ee8f-b169-4e22-9fb6-56db3e0c5506/training-status.json",
+      "logs": "/projects/5fc23db6-b83f-42d1-a484-671370cb7bdf/assets/experiment/experiment.testdlexperiment/trainings/0871ee8f-b169-4e22-9fb6-56db3e0c5506/logs",
+      "assets_path": "/projects/5fc23db6-b83f-42d1-a484-671370cb7bdf/assets/experiment/experiment.testdlexperiment/trainings/d1e9da49-ab28-4624-b9d5-82131c4649b3/assets"
+    },
+    "type": "fs"
+  },
+  "training_data_references": [{
+    "connection": {
+
+    },
+    "location": {
+      "path": "tf-mnist"
+    },
+    "type": "fs"
+  }],
+  "software_spec": {
+    "name": "tensorflow_rt22.1-py3.9"
+  },
+  "project_id": "5fc23db6-b83f-42d1-a484-671370cb7bdf",
+  "type": "tensorflow_rt22.1"
+}

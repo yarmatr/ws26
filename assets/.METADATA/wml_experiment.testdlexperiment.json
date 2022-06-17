@@ -1,0 +1,44 @@
+{
+  "entity": {
+    "wml_experiment": {
+      "training_references": [
+        {
+          "model_definition": {
+            "hardware_spec": {
+              "base_id": "f327bdf7-5634-43d8-b1e3-445afeaf18b9",
+              "name": "V100",
+              "num_nodes": 1
+            },
+            "id": "wml_model_definition.testtensorflow",
+            "parameters": {
+              "description": "test tensorflow",
+              "name": "test tensorflow"
+            },
+            "software_spec": {
+              "base_id": "acd9c798-6974-5d2f-a657-ce06e986df4d",
+              "name": "tensorflow_rt22.1-py3.9"
+            }
+          }
+        }
+      ],
+      "model_definition_dependencies": [
+        "wml_model_definition.testtensorflow"
+      ],
+      "ml_version": "4.0.1"
+    }
+  },
+  "metadata": {
+    "name": "test dl experiment",
+    "description": "",
+    "asset_type": "wml_experiment",
+    "asset_category": "USER",
+    "origin_country": "US",
+    "created_at": "2022-06-17T21:36:53Z",
+    "created": 1655501813357,
+    "asset_id": "wml_experiment.testdlexperiment",
+    "asset_attributes": [
+      "wml_experiment"
+    ]
+  },
+  "attachments": []
+}
